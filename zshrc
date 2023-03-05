@@ -1,5 +1,14 @@
 # Set Variables
 
+# Change ZSH Options
+
+# Customize Prompt (s)
+PROMPT='
+%1~ %L %# '
+RPROMPT=1%**
+
+# Add Locations to $PATH Variable
+
 # Create Aliases
 # List all files colorized in long format
 alias ls='ls -lAFh'
