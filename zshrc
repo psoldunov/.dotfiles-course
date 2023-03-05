@@ -16,7 +16,10 @@ export PATH="$PATH:/Applications/Visual Studio Code.app/Contents/Resources/app/b
 
 # Create Aliases
 # List all files colorized in long format
-alias ls='ls -lAFh'
+# alias ls='ls -laFh'
+alias ls='exa -laFh --git'
+# alias exa='exa -laFh --git'
+
 # Source .zshrc
 alias reload='source ~/.zshrc && echo "ZSH Config Reloaded"'
 
