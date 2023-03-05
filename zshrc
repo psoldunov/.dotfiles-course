@@ -8,6 +8,8 @@ PROMPT='
 RPROMPT=1%**
 
 # Add Locations to $PATH Variable
+# Add Visual Studio Code (code)
+export PATH="$PATH:/Applications/Visual Studio Code.app/Contents/Resources/app/bin"
 
 # Create Aliases
 # List all files colorized in long format
