@@ -10,4 +10,5 @@ brew install httpie
 brew install bat
 
 # Install Homebrew casks
-brew install --cask visual-studio-code
+brew install --cask --no-quarantine visual-studio-code
+brew install --cask --no-quarantine raycast
